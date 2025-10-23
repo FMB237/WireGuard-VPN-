@@ -14,22 +14,73 @@ Contents (files in this folder)
 - `Wireguard Vpn.pkt` — Packet Tracer diagram for a WireGuard VPN topology.
 - `WireGuard VPN Implementation Report-1.pdf` — short implementation report and notes.
 - Screenshots (installation, key generation, permission fixes, and connectivity proofs):
-   - `images/01_Alpine_installation.png` — Alpine installation
-   - `images/02_Alpine_key_generation.png` — Alpine key generation
-   - `images/03_Alpine_add_wg0.png` — Adding `wg0.conf` on Alpine
-   - `images/04_Alpine_success.png` — Successful connection (Alpine)
-   - `images/05_ping_server_to_client.png` — Ping: server -> client
-   - `images/06_ping_client_to_server.png` — Ping: client -> server
-   - `images/07_Mint_installation.png` — Linux Mint installation
-   - `images/08_Mint_key_generation.png` — Linux Mint key generation
-   - `images/09_Mint_permissions.png` — File permission steps on Mint
-   - `images/10_Mint_success.png` — Successful connection (Mint)
-   - `images/11_Alpine_commands.png` — Commands used on Alpine server
-   - `images/12_Mint_commands.png` — Commands used on Mint server
-   - `images/13_Alpine_vpn_config.png` — Alpine VPN configuration
-   - `images/14_vpn_shows_up.png` — VPN shows up (UI)
-   - `images/15_vpn_icon.png` — VPN icon / indicator
-   - `images/16_lab.png` — lab topology / diagram screenshot
+- Screenshots (installation, key generation, permission fixes, and connectivity proofs)
+
+  The images are numbered in the order the tasks were performed. Click thumbnails to open the full image in the `images/` folder.
+
+  1. Installation on Alpine
+
+     ![01 Alpine installation](images/01_Alpine_installation.png)
+
+  2. Key generation on Alpine
+
+     ![02 Alpine key generation](images/02_Alpine_key_generation.png)
+
+  3. Adding `wg0.conf` on Alpine
+
+     ![03 Add wg0.conf on Alpine](images/03_Alpine_add_wg0.png)
+
+  4. Successful connection on Alpine
+
+     ![04 Alpine success](images/04_Alpine_success.png)
+
+  5. Ping test: server -> client
+
+     ![05 Ping s->c](images/05_ping_server_to_client.png)
+
+  6. Ping test: client -> server
+
+     ![06 Ping c->s](images/06_ping_client_to_server.png)
+
+  7. Installation on Linux Mint
+
+     ![07 Mint installation](images/07_Mint_installation.png)
+
+  8. Key generation on Linux Mint
+
+     ![08 Mint key generation](images/08_Mint_key_generation.png)
+
+  9. File permission fixes on Mint
+
+     ![09 Mint permissions](images/09_Mint_permissions.png)
+
+  10. Successful connection on Mint
+
+     ![10 Mint success](images/10_Mint_success.png)
+
+  11. Commands output on Alpine server
+
+     ![11 Alpine commands](images/11_Alpine_commands.png)
+
+  12. Commands output on Mint server
+
+     ![12 Mint commands](images/12_Mint_commands.png)
+
+  13. Alpine VPN configuration (file view)
+
+     ![13 Alpine config](images/13_Alpine_vpn_config.png)
+
+  14. VPN shows up (UI)
+
+     ![14 VPN shows up](images/14_vpn_shows_up.png)
+
+  15. VPN icon / indicator
+
+     ![15 VPN icon](images/15_vpn_icon.png)
+
+  16. Lab topology / diagram screenshot
+
+     ![16 Lab](images/16_lab.png)
 
 Notes about operating systems
 
